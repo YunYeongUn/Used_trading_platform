@@ -1,0 +1,23 @@
+{
+  "name": "used-trading-platform",
+  "version": "1.0.0",
+  "description": "Used Trading Platform for Dormitory Students",
+  "scripts": {
+    "app": "cd server && npm start",
+    "client": "cd client && npm start",
+    "start": "concurrently --kill-others-on-fail \"npm run app\" \"npm run client\""
+  },
+  "dependencies": {
+    "concurrently": "^7.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woohyeon-dev/Used-trading-platform.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woohyeon-dev/Used-trading-platform/issues"
+  },
+  "homepage": "https://github.com/woohyeon-dev/Used-trading-platform#readme"
+}
